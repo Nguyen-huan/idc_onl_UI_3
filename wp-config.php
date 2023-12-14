@@ -1,16 +1,16 @@
 <?php
 /**
- * C?u hì co b?n cho WordPress
+ * Cấu hình cơ bản cho WordPress
  *
- * Trong quárì càd?t, file "wp-config.php" s? du?c t?o d?a trên?i dung
- * m?u c?a file nà B?n khôb?t bu?c ph?i s? d?ng giao di?n web d? càd?t,
- * ch? c?n luu file nàl?i v?i tê"wp-config.php" vài?n cáthôtin c?n thi?t.
+ * Trong quá trình cài đặt, file "wp-config.php" sẽ được tạo dựa trên nội dung 
+ * mẫu của file này. Bạn không bắt buộc phải sử dụng giao diện web để cài đặt, 
+ * chỉ cần lưu file này lại với tên "wp-config.php" và điền các thông tin cần thiết.
  *
- * File nàch?a cáthi?t l?p sau:
+ * File này chứa các thiết lập sau:
  *
- * * Thi?t l?p MySQL
- * * Cákhóí?t
- * * Ti?n t? cho cáb?ng database
+ * * Thiết lập MySQL
+ * * Các khóa bí mật
+ * * Tiền tố cho các bảng database
  * * ABSPATH
  *
  * @link https://codex.wordpress.org/Editing_wp-config.php
@@ -33,20 +33,20 @@ define('JWT_AUTH_CORS_ENABLE', true);
 define('JWT_AUTH_EXPIRE', time() + (3600 * 24 * 10000));
 
 
-/** Database charset s? d?ng d? t?o b?ng database. */
-define( 'DB_CHARSET', 'utf8mb4' );
+/** Database charset sử dụng để tạo bảng database. */
+define('DB_CHARSET', 'utf8md4');
 
-/** Ki?u database collate. Ðng thay d?i n?u khôhi?u rõ/
+/** Kiểu database collate. Đừng thay đổi nếu không hiểu rõ. */
 define('DB_COLLATE', '');
 
 /**#@+
- * Khóáth?c vàalt.
+ * Khóa xác thực và salt.
  *
- * Thay d?i cágiár? du?i dâthà cákhóhôtrùhau!
- * B?n có? t?o ra cákhóàb?ng côc?
+ * Thay đổi các giá trị dưới đây thành các khóa không trùng nhau!
+ * Bạn có thể tạo ra các khóa này bằng công cụ
  * {@link https://api.wordpress.org/secret-key/1.1/salt/ WordPress.org secret-key service}
- * B?n có? thay d?i chú?t c? lúo d? vô?u hó?t c?
- * cácookie hi?n cói?u nàs? bu?c t?t c? ngu?i dùh?i dang nh?p l?i.
+ * Bạn có thể thay đổi chúng bất cứ lúc nào để vô hiệu hóa tất cả
+ * các cookie hiện có. Điều này sẽ buộc tất cả người dùng phải đăng nhập lại.
  *
  * @since 2.6.0
  */
@@ -62,20 +62,20 @@ define( 'NONCE_SALT',       '5W4iXz7(O|Cq|01}rnCmW*1!S{4?a6c9_>:#<+X|9-/XbPqUwCG
 /**#@-*/
 
 /**
- * Ti?n t? cho b?ng database.
+ * Tiền tố cho bảng database.
  *
- * Ðt ti?n t? cho b?ng giún có? cànhi?u site WordPress vàcù?t database.
- * Ch? s? d?ng s?, kýà?u g?ch du?i!
+ * Đặt tiền tố cho bảng giúp bạn có thể cài nhiều site WordPress vào cùng một database.
+ * Chỉ sử dụng số, ký tự và dấu gạch dưới!
  */
 $table_prefix = 'wp_';
 
 /**
- * Dà cho developer: Ch? d? debug.
+ * Dành cho developer: Chế độ debug.
  *
- * Thay d?i h?ng s? nàthà true s? làhi?n lêcáthôbátrong quárì phátri?n.
- * Chúôhuy?n cácádeveloper s? d?ng WP_DEBUG trong quárì phátri?n plugin vàheme.
+ * Thay đổi hằng số này thành true sẽ làm hiện lên các thông báo trong quá trình phát triển.
+ * Chúng tôi khuyến cáo các developer sử dụng WP_DEBUG trong quá trình phát triển plugin và theme.
  *
- * Ð cóôtin v? cáh?ng s? khácó? s? d?ng khi debug, hãxem t?i Codex.
+ * Để có thông tin về các hằng số khác có thể sử dụng khi debug, hãy xem tại Codex.
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
@@ -85,12 +85,12 @@ define('FS_METHOD', 'direct');
 
 define( 'WP_CACHE', false );
 
-/* Ð là?t c? thi?t l?p, ngung s?a t? ph?n nàtr? xu?ng. Chún vi?t blog vui v?. */
+/* Đó là tất cả thiết lập, ngưng sửa từ phần này trở xuống. Chúc bạn viết blog vui vẻ. */
 
-/** Ð?ng d?n tuy?t d?i d?n thu m?c càd?t WordPress. */
+/** Đường dẫn tuyệt đối đến thư mục cài đặt WordPress. */
 if ( !defined('ABSPATH') )
 	define('ABSPATH', dirname(__FILE__) . '/');
 
-/** Thi?t l?p bi?n vànclude file. */
+/** Thiết lập biến và include file. */
 require_once(ABSPATH . 'wp-settings.php');
 
