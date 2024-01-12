@@ -1,0 +1,148 @@
+.banner-section .banner-content .small-heading,.banner-section .banner-content .banner-para,.banner-section .read-more-btn a,
+.banner-section .button-1 .wp-element-button,.banner-section .banner-price,.product-section .product-section-para,
+.product-section .btn-section .wp-element-button{
+  font-family: 'Kumbh Sans', sans-serif;
+}
+.banner-section .banner-content .main-heading,.banner-section .button-2 .wp-element-button,.product-section h2{
+  font-family: 'Josefin Sans', sans-serif;
+}
+.banner-section .banner-content .banner-para{
+  font-size: 15px !important;
+}
+.banner-section .banner-content .main-heading,.banner-section .banner-content .banner-price,.product-section .btn-section .wp-block-button,
+.product-section .save-btn,.product-section .feature-section,.product-section .buynow-btn,.product-section .btn-section .wp-block-buttons,
+.product-section h2,.product-section .product-section-para{
+  margin: 0px !important;
+}
+.product-section .price-section .wp-block-buttons,.product-section .feature-heading,.product-section .renew-heading, 
+.banner-section .banner-content .banner-para{
+  margin-bottom: 10px;
+}
+.banner-section .banner-content .banner-para,.banner-section .button-2,.product-section .heading-section h3,
+.product-section .price-section p,.product-section .feature-heading,.product-section .renew-heading,.banner-section .button-1{
+  margin-top: 5px;
+}
+.product-section .heading-section h3{
+  font-weight: 500;
+}
+.product-section .feature-section p{
+  margin-top: 10px;
+}
+.product-section .heading-section,.product-section .heading-section p,.product-section .price-section .wp-block-buttons
+{
+  margin-top: 0px !important;
+}
+.banner-section .banner-content .main-heading{
+  line-height: 1.2;
+}
+.banner-section img{
+  object-fit: unset !important;
+}
+.banner-section{
+  margin-bottom: 50px;
+}
+.banner-section .banner-content .small-heading,.product-section .heading-section h3,
+.product-section .price-section  .has-text-align-center,.product-section .save-btn p{
+  margin-bottom: 0rem !important;
+}
+.banner-section .banner-content{
+  margin-left: 15% !important;
+  margin-right: 9% !important;
+}
+.banner-section .read-more-btn .wp-element-button:hover{
+ background-color: #103dbe !important;
+}
+.banner-section .claim-btn .wp-block-button__link:hover{
+  background-color: #000 !important;
+}
+.banner-section .read-more-btn a,.banner-section .claim-btn a,.product-section .buynow-btn a{
+  font-weight: 500 !important;
+  padding: 12px 20px !important;
+} 
+.product-section{
+  max-width: 1024px;
+}
+.product-section .btn-section{
+  width: 95%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  box-shadow: 0px 5px 9px #103DBE45;
+  border-radius: 10px;
+  column-gap: 10px;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+.product-section .btn-section .btn-2 a{
+  color: #000 !important;
+}
+.product-section .btn-section .wp-element-button:hover{
+  background-color: #103dbe  !important;
+  color: #fff !important;
+}
+.product-section .price-section{
+  box-shadow: -8px 3px 10px #00000012;
+  border-radius: 15px;
+  padding: 5px;
+  text-align: center;
+  background: #fff;
+  display: block !important;
+  margin: -21% auto 0px auto;
+  width: 90%;
+  margin-bottom: 20px;
+}
+.product-section .save-btn {
+  gap: 1em !important;
+}
+.product-section .product-1{
+  border: 2px solid #b9b9b9;
+  border-radius: 20px;
+}
+.product-section .heading-section .wp-block-column{
+  border-radius: 20px;
+  padding: 0px 0 30px 0;
+/*  z-index: -1;*/
+}
+.product-section .save-btn .wp-block-button,.product-section .feature-section p {
+  margin-bottom: 0px;
+}
+.product-section .save-btn .wp-element-button{
+    box-shadow: -8px 3px 10px #00000012;
+    padding: 5px 14px;
+    color: #212529 !important;
+    font-weight: 400 !important;
+}
+.product-section .feature-section{
+  padding: 0px 20px 0 20px;
+  margin-bottom: 0px !important;
+}
+.product-section .feature-section h6{
+  font-weight: 600;
+}
+.product-section .btn-section a{
+  font-weight: 500;
+}
+.product-section .feature-section p::before {
+  content: "\f058";
+  margin-right: 10px;
+  color: #fff !important;
+  border-radius: 50%;
+  background-color: #000;
+  padding: 3px;
+  font-size: 8px;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;    
+}
+.product-section .feature-heading::after {
+  content: "\f107";
+  margin-left: 10px;
+  color: #1c35bf;
+  font-size: 15px;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;    
+}
+.product-section .product-1:hover .heading-section .wp-block-column ,
+.product-section .product-1:hover .buynow-btn .wp-element-button{
+  background-color: #103DBE !important;
+  border-color: #103DBE;
+}

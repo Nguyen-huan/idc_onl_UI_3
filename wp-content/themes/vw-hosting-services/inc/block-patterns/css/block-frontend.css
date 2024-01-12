@@ -1,0 +1,228 @@
+.banner-section{
+  margin-bottom: 50px;
+}
+.banner-section .banner-content .small-heading,.product-section .heading-section h3,.product-section .price-section  .has-text-align-center,
+.product-section .save-btn p{
+  margin-bottom: 0rem !important;
+}
+.banner-section .banner-content{
+  margin-left: 15%;
+  margin-right: 26%;
+}
+.banner-section img{
+  padding: 0em 18em !important;
+}
+.banner-section .read-more-btn a:hover{
+ background-color: #103dbe !important;
+}
+.banner-section .read-more-btn a,.banner-section .claim-btn a,.product-section .buynow-btn a{
+  font-weight: 500 !important;
+  padding: 12px 20px !important;
+}  
+.banner-section .claim-btn a:hover{
+  background-color: #000 !important;
+}
+.product-section .btn-section{
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  box-shadow: 0px 5px 9px #103DBE45;
+  border-radius: 10px;
+  column-gap: 10px;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+.product-section .btn-section .wp-block-button{
+  margin: 0;
+}
+.product-section .btn-section .btn-2 a{
+  color: #000 !important;
+}
+.product-section .btn-section a:hover{
+  background-color: #103dbe  !important;
+  color: #fff !important;
+}
+.product-section .price-section{
+  box-shadow: -8px 3px 10px #00000012;
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+  background: #fff;
+  display: block !important;
+  margin: -15% auto 30px auto;
+  width: 90%;
+  position: relative;
+}
+.product-section .save-btn {
+  gap: 1em !important;
+}
+.product-section .product-1{
+  border: 2px solid #b9b9b9;
+  border-radius: 20px;
+}
+.product-section .heading-section .wp-block-column{
+  border-radius: 20px;
+  padding: 10px 0 50px 0;
+  z-index: -1;
+}
+.product-section .heading-section h3,.product-section .price-section  .has-text-align-center,.product-section .save-btn p{
+  margin-bottom: 0rem !important;
+}
+.product-section .feature-section p{
+  margin-bottom: 0.5rem !important;
+}
+.product-section .save-btn .wp-block-button {
+  margin-bottom: 0px;
+}
+.product-section .save-btn a{
+    box-shadow: -8px 3px 10px #00000012;
+    padding: 5px 14px;
+    color: #212529 !important;
+    font-weight: 400 !important;
+}
+.product-section .feature-section{
+  padding: 0px 20px 0 20px;
+  margin-bottom: 0px !important;
+}
+.product-section .feature-section h6{
+  font-weight: 600;
+}
+.product-section .btn-section a{
+  font-weight: 500;
+}
+.product-section .feature-section p::before {
+  content: "\f058";
+  margin-right: 10px;
+  color: #000;
+  border-radius: 50%;
+  background-color: #fff;
+  padding: 3px;
+  font-size: 13px;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900; 
+}
+.product-section .feature-heading::after {
+  content: "\f107";
+  margin-left: 10px;
+  color: #1c35bf;
+  font-size: 15px;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;    
+}
+.product-section .product-1:hover .heading-section .wp-block-column ,
+.product-section .product-1:hover .buynow-btn a{
+  background-color: #103DBE !important;
+  border-color: #103DBE;
+}
+@media screen and (min-width: 769px) and (max-width: 1024px){
+  .banner-section img {
+    padding: 5em 0em !important;
+  }
+  .banner-section .banner-content{
+    margin-left: 5%;
+    margin-right: 0%;
+  }
+  .product-section .save-btn{
+    gap: 0.5rem !important;
+  }
+  .product-section .price-section{
+    margin-top: -20%;
+  }
+  .banner-section {
+    margin-bottom: 0px;
+  }
+  .product-section .btn-section{
+    width: 100%;
+    flex-wrap: nowrap !important;
+  }
+  .product-section .prdt-section{
+    flex-wrap: nowrap !important;
+  }
+}
+@media screen and (min-width: 721px) and (max-width: 768px){
+  .container{
+    max-width: 100%;
+  }
+  .banner-section .banner-content {
+    margin-left: 5%;
+    margin-right: 21%;
+  }
+  .banner-section img {
+    padding: 8em 0em !important;
+  }
+  .product-section .prdt-section,.product-section .btn-section {
+    flex-wrap: nowrap !important;
+    width: 100%;
+  }
+  .product-section .prdt-section,.product-section .btn-section a{
+    padding: 15px 10px;
+  }
+  .banner-section {
+    margin-bottom: -10%;
+  }
+  .product-section .heading-section .wp-block-column{
+    padding: 10px 0px 50px 0px;
+  }
+  .product-section .price-section{
+    margin: -28% auto 30px auto;
+  }
+  .product-section .save-btn .wp-block-buttons{
+    justify-content: center;
+  }
+  .product-section .save-btn p{
+    text-align: center;
+  }
+  .product-section .save-btn {
+    gap: 0.5em !important;
+  }
+  .product-section .prdt-section{
+    gap: 1em !important;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 720px){
+  .banner-section .banner-content {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .banner-section .read-more-btn a,.banner-section .claim-btn a{
+    padding: 12px 17px !important;
+  } 
+  .banner-section {
+    margin-bottom: 0px;
+  }
+  .product-section .btn-section .wp-block-buttons {
+    display: block;
+  }
+  .product-section .btn-section{
+    gap: 0.5em;
+  }
+  .product-section .save-btn .wp-block-buttons{
+    justify-content: center;
+  }
+  .product-section .save-btn p{
+    text-align: center;
+  }
+  .product-section .save-btn {
+    gap: 0.5em !important;
+  }
+  .product-section .price-section{
+    margin: -12% auto 30px auto;
+  }
+  .banner-section img{
+    padding: 0em !important;
+    object-fit: cover !important;
+  }
+}
+@media screen and (min-width: 1025px)and (max-width: 1439px){
+  .banner-section img{
+    padding: 0em !important;
+    object-fit: cover !important;
+  }
+}
+@media screen and (min-width: 1440px)and (max-width: 1550px){
+  .banner-section img{
+    padding: 0em !important;
+    object-fit: cover !important;
+  }
+}

@@ -1,0 +1,27 @@
+.control-section-software-it-company h3.accordion-section-title {
+  line-height: 30px;
+}
+#customize-theme-controls .control-panel-themes>.accordion-section-title, 
+#customize-theme-controls .control-panel-themes>.accordion-section-title:hover{
+  margin: 0;
+}
+.control-section-software-it-company h3.accordion-section-title a{
+  float: right;
+}
+li#customize-control-software_it_company_phone button,li#customize-control-software_it_company_opening_time button  {
+    display: none;
+}
+#accordion-section-software_it_company_upgrade_pro h3 a{
+  background: #3aafa9;
+  border-color: #3aafa9;
+  outline-color:#3aafa9 !important;
+}
+#accordion-section-software_it_company_upgrade_pro h3 {
+  color: #50575e !important;
+  background-color: #fff !important;
+}
+#accordion-section-software_it_company_upgrade_pro h3 a:hover{
+  background: #444444;
+  border-color: #444444;
+  outline-color:#444444 !important;
+}
